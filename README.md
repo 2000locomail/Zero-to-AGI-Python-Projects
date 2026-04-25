@@ -5,7 +5,7 @@
 ## About
 
 I am Sarvesh Dwivedi — a self-taught Python Developer on a mission to become
-a world-class AGI++ Developer. This repository is my project lab where I build
+a world-class AGI Developer. This repository is my project lab where I build
 real Python projects, solve challenging problems, and apply every concept I learn
 into something functional and meaningful.
 
