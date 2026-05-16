@@ -1,0 +1,30 @@
+# Passport Photo Generator - Requirements
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+
+# Background Removal
+rembg[gpu]>=0.0.50  # GPU version (use rembg[cpu] for CPU only)
+
+# Face Detection & Enhancement
+torch>=2.0.0
+torchvision>=0.15.0
+dlib>=19.24.0
+
+# Face Restoration & Upscaling
+gfpgan>=2.3.7
+realesrgan>=0.3.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: GPU support
+# For NVIDIA CUDA support, install:
+# torch with CUDA: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
